@@ -1,7 +1,7 @@
 # 机混（魔剪）需求每日流水线 · WorkBuddy Skill
 
 > 这是一个 **WorkBuddy Skill**。怎么装进 WorkBuddy、怎么发给别人、怎么同步更新，见 [SHARE.md](SHARE.md)。
-> 仓库：https://github.com/yangzq66666/mojian-jihun-xqb-skill （Public）
+> 仓库：https://github.com/yangzq66666/MoJian-jihun-XQB （Public）
 
 把《需求对接表》里当天的「N魔剪 / N混剪 / N机混」需求，写进本地《机混需求表》，
 再核对导出目录里当天成片的数量与编号。

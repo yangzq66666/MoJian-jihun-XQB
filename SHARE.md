@@ -4,8 +4,8 @@
 
 | 项 | 值 |
 |---|---|
-| 仓库 | `https://github.com/yangzq66666/mojian-jihun-xqb-skill`（**Public**） |
-| git 地址 | `https://github.com/yangzq66666/mojian-jihun-xqb-skill.git` |
+| 仓库 | `https://github.com/yangzq66666/MoJian-jihun-XQB`（**Public**） |
+| git 地址 | `https://github.com/yangzq66666/MoJian-jihun-XQB.git` |
 | 本地目录 | `~/.workbuddy/skills/mojian-jihun-xqb` |
 | 分支 | `main` |
 | 版本 | 见 `SKILL.md` frontmatter 的 `version` |
@@ -32,20 +32,20 @@ git archive --format=zip --prefix=mojian-jihun-xqb/ \
 
 **方式 B（自助）**：GitHub 仓库页 → 绿色 **Code → Download ZIP** → 把**原始 zip** 拖进「上传技能」。
 
-> ⚠️ GitHub 自动 zip 顶层是 `mojian-jihun-xqb-skill-main/`，不是 `mojian-jihun-xqb/`。
+> ⚠️ GitHub 自动 zip 顶层是 `MoJian-jihun-XQB-main/`，不是 `mojian-jihun-xqb/`。
 > **不要解压后重新压缩**（多套一层会报「找不到 SKILL.md」）。
 
 **方式 C（以后更新最省事）**：对方新建一段对话，把下面整段贴进去：
 
 ```
 帮我把下面这个公开仓库的 Skill 安装到 WorkBuddy。核心要求：绝对不要创建或覆盖任何本机配置。
-仓库：https://github.com/yangzq66666/mojian-jihun-xqb-skill
+仓库：https://github.com/yangzq66666/MoJian-jihun-XQB
 分支：main
 目标目录：~/.workbuddy/skills/mojian-jihun-xqb/
 
 步骤：
 1. 若目标目录已存在且有 .git，改为 git pull 更新
-2. 匿名下载 main 分支全部文件，平铺放进目标目录（不要多套一层 mojian-jihun-xqb-skill-main/）
+2. 匿名下载 main 分支全部文件，平铺放进目标目录（不要多套一层 MoJian-jihun-XQB-main/）
 3. 确认 SKILL.md 在目标目录根部，frontmatter 里 name 是 mojian-jihun-xqb
 4. 跑 python scripts/setup.py --check 看缺哪些配置，并告诉我按 README「公开版说明」逐项填
 5. 不要生成或覆盖 ~/.workbuddy/mojian-jihun-xqb/config.json（那是用户自己的配置）
