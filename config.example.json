@@ -1,0 +1,13 @@
+{
+  "_说明": "配置示例，不含任何真实值。实际配置文件在 ~/.workbuddy/mojian-jihun-xqb/config.json（技能目录之外），由 setup.py 生成；也可把本文件复制到那里再改。以下划线开头的键会被忽略。",
+
+  "xlsx": "C:/你的目录/机混需求表.xlsx",
+  "sheet_name": "项目需求_项目路径_爆款拆分",
+  "output_dir_sheet": "输出目录",
+  "state_dir": "",
+  "path_prefix": "C:/素材根目录/0-魔剪-素材",
+  "tdoc_file_id": "YOUR_FILE_ID",
+  "tdoc_sheet_id": "YOUR_SHEET_ID",
+  "tdoc_script": "",
+  "people": ["甲", "乙", "丙", "丁", "戊"]
+}

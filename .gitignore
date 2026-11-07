@@ -1,0 +1,26 @@
+# ===== 用户专属配置 / 本机数据（绝不进仓库或分发包）=====
+# 真实配置在技能目录之外：~/.workbuddy/mojian-jihun-xqb/config.json（由 setup.py 生成）
+# 这里仍排除万一被误复制进来的配置
+config.json
+_skillhub_meta.json
+
+# 备份与缓存
+*.bak*
+__pycache__/
+*.pyc
+*.pyo
+
+# 运行产物：中间文件、基准、报表、台账、备份的新表
+plan.json
+items.json
+baseline.json
+baseline.md
+snapshot*.json
+核对报告.md
+魔剪需求台账.md
+基准存档/
+_new_*
+*.xlsx
+*.csv
+*.log
+*.tmp
